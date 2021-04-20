@@ -25,7 +25,7 @@ func (s Server) routesHandler() {
 	s.router.HandleFunc("/", middleware.MiddlewareAuthentication(s.homeHandler().ServeHTTP)).Methods("GET")
 	s.router.HandleFunc("/register", s.registerHandler().ServeHTTP).Methods("GET", "POST")
 	s.router.HandleFunc("/login", s.loginHandler().ServeHTTP).Methods("GET", "POST")
-	s.router.HandleFunc("/logout", s.logoutHandler().ServeHTTP).Methods("GET", "POST")
+	s.router.HandleFunc("/logout", s.logoutHandler().ServeHTTP).Methods("GET")
 }
 
 func (s Server) homeHandler() http.HandlerFunc {
