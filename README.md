@@ -14,4 +14,4 @@
 
 # Info
 
-* This is an authentication system.
+* Simple authentication system.
