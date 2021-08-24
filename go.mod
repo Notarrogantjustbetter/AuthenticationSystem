@@ -1,4 +1,4 @@
-module github.com/Notarrogantjustbetter/AuthenticationSystem/v2
+module github.com/Deikioveca/AuthenticationSystem/v2
 
 go 1.16
 
