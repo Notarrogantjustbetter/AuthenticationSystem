@@ -2,10 +2,10 @@ package server
 
 import (
 	"net/http"
-	"github.com/Notarrogantjustbetter/AuthenticationSystem/v2/database"
-	"github.com/Notarrogantjustbetter/AuthenticationSystem/v2/middleware"
-	"github.com/Notarrogantjustbetter/AuthenticationSystem/v2/sessions"
-	"github.com/Notarrogantjustbetter/AuthenticationSystem/v2/utils"
+	"github.com/Deikioveca/AuthenticationSystem/v2/database"
+	"github.com/Deikioveca/AuthenticationSystem/v2/middleware"
+	"github.com/Deikioveca/AuthenticationSystem/v2/sessions"
+	"github.com/Deikioveca/AuthenticationSystem/v2/utils"
 	"github.com/gorilla/mux"
 )
 
