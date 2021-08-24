@@ -3,9 +3,9 @@ package main
 import (
 	"net/http"
 
-	"github.com/Notarrogantjustbetter/AuthenticationSystem/v2/database"
-	"github.com/Notarrogantjustbetter/AuthenticationSystem/v2/server"
-	"github.com/Notarrogantjustbetter/AuthenticationSystem/v2/utils"
+	"github.com/Deikioveca/AuthenticationSystem/v2/database"
+	"github.com/Deikioveca/AuthenticationSystem/v2/server"
+	"github.com/Deikioveca/AuthenticationSystem/v2/utils"
 )
 
 func main() {
