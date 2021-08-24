@@ -2,7 +2,7 @@ package middleware
 
 import (
 	"net/http"
-	"github.com/Notarrogantjustbetter/AuthenticationSystem/v2/sessions"
+	"github.com/Deikioveca/AuthenticationSystem/v2/sessions"
 )
 
 
